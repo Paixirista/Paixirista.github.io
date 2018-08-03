@@ -88,7 +88,7 @@ li {
 }
 .container2 {
     display: inline-grid;
-    width: 40%;
+    width: 30%;
     height: auto;
     text-align: center;
     position: relative;
@@ -120,12 +120,24 @@ a:hover {
     color: lightgrey;
 }
 .contact {
-    height: 50%;
+    margin: 2% auto;
     width: 30%;
-    margin: 2%;
+    height: 50%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
     display: inline-grid;
-    text-align: center;
-    border: 2px dashed lightgray;
+    
+}
+.contact-info {
+    padding-top: 5%;
+    font-size: 130%;
+}
+.button {
+    padding-left: 90px;
+}
+button {
+    margin-left: .5em;
 }
 .jules {
     color: gray;
